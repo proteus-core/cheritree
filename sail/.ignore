@@ -1,0 +1,17 @@
+*.html
+*.S
+*.cout
+*.elf
+*.xml
+*.dump
+*.sty
+*.ml
+*.annot
+*.tex
+*.v
+*.sml
+*.thy
+*.md
+*.lem
+*.bib
+*.hgen

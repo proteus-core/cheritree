@@ -1,0 +1,788 @@
+<testsuites>
+  <testsuite name="64-bit RISCV OCaml tests" tests="184" failures="184" timestamp="Di 05 Okt 2021 15:58:21 CEST">
+    <testcase name="Building 64-bit RISCV OCaml emulator">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64mi-p-access.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64mi-p-breakpoint.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64mi-p-csr.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64mi-p-illegal.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64mi-p-ma_addr.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64mi-p-ma_fetch.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64mi-p-mcsr.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64mi-p-sbreak.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64mi-p-scall.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64si-p-csr.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64si-p-dirty.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64si-p-ma_fetch.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64si-p-sbreak.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64si-p-scall.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64si-p-wfi.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ua-p-amoadd_d.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ua-p-amoadd_w.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ua-p-amoand_d.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ua-p-amoand_w.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ua-p-amomax_d.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ua-p-amomaxu_d.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ua-p-amomaxu_w.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ua-p-amomax_w.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ua-p-amomin_d.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ua-p-amominu_d.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ua-p-amominu_w.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ua-p-amomin_w.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ua-p-amoor_d.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ua-p-amoor_w.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ua-p-amoswap_d.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ua-p-amoswap_w.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ua-p-amoxor_d.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ua-p-amoxor_w.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ua-p-lrsc.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ua-v-amoadd_d.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ua-v-amoadd_w.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ua-v-amoand_d.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ua-v-amoand_w.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ua-v-amomax_d.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ua-v-amomaxu_d.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ua-v-amomaxu_w.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ua-v-amomax_w.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ua-v-amomin_d.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ua-v-amominu_d.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ua-v-amominu_w.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ua-v-amomin_w.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ua-v-amoor_d.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ua-v-amoor_w.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ua-v-amoswap_d.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ua-v-amoswap_w.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ua-v-amoxor_d.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ua-v-amoxor_w.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ua-v-lrsc.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64uc-p-rvc.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64uc-v-rvc.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-add.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-addi.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-addiw.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-addw.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-and.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-andi.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-auipc.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-beq.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-bge.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-bgeu.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-blt.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-bltu.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-bne.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-fence_i.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-jal.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-jalr.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-lb.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-lbu.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-ld.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-lh.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-lhu.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-lui.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-lw.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-lwu.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-or.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-ori.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-sb.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-sd.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-sh.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-simple.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-sll.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-slli.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-slliw.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-sllw.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-slt.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-slti.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-sltiu.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-sltu.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-sra.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-srai.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-sraiw.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-sraw.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-srl.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-srli.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-srliw.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-srlw.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-sub.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-subw.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-sw.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-xor.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-p-xori.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-add.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-addi.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-addiw.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-addw.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-and.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-andi.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-auipc.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-beq.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-bge.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-bgeu.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-blt.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-bltu.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-bne.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-fence_i.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-jal.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-jalr.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-lb.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-lbu.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-ld.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-lh.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-lhu.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-lui.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-lw.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-lwu.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-or.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-ori.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-sb.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-sd.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-sh.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-simple.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-sll.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-slli.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-slliw.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-sllw.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-slt.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-slti.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-sltiu.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-sltu.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-sra.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-srai.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-sraiw.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-sraw.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-srl.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-srli.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-srliw.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-srlw.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-sub.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-subw.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-sw.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-xor.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64ui-v-xori.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64um-p-div.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64um-p-divu.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64um-p-divuw.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64um-p-divw.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64um-p-mul.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64um-p-mulh.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64um-p-mulhsu.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64um-p-mulhu.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64um-p-mulw.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64um-p-rem.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64um-p-remu.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64um-p-remuw.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64um-p-remw.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64um-v-div.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64um-v-divu.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64um-v-divuw.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64um-v-divw.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64um-v-mul.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64um-v-mulh.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64um-v-mulhsu.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64um-v-mulhu.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64um-v-mulw.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64um-v-rem.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64um-v-remu.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64um-v-remuw.elf">
+      <error message="fail">fail</error>
+    </testcase>
+    <testcase name="OCaml-64 rv64um-v-remw.elf">
+      <error message="fail">fail</error>
+    </testcase>
+  </testsuite>
+  <testsuite name="64-bit RISCV C tests" tests="230" failures="0" timestamp="Di 05 Okt 2021 16:01:13 CEST">
+    <testcase name="Building 64-bit RISCV C emulator"/>
+    <testcase name="C-64 rv64mi-p-access.elf"/>
+    <testcase name="C-64 rv64mi-p-breakpoint.elf"/>
+    <testcase name="C-64 rv64mi-p-csr.elf"/>
+    <testcase name="C-64 rv64mi-p-illegal.elf"/>
+    <testcase name="C-64 rv64mi-p-ma_addr.elf"/>
+    <testcase name="C-64 rv64mi-p-ma_fetch.elf"/>
+    <testcase name="C-64 rv64mi-p-mcsr.elf"/>
+    <testcase name="C-64 rv64mi-p-sbreak.elf"/>
+    <testcase name="C-64 rv64mi-p-scall.elf"/>
+    <testcase name="C-64 rv64si-p-csr.elf"/>
+    <testcase name="C-64 rv64si-p-dirty.elf"/>
+    <testcase name="C-64 rv64si-p-ma_fetch.elf"/>
+    <testcase name="C-64 rv64si-p-sbreak.elf"/>
+    <testcase name="C-64 rv64si-p-scall.elf"/>
+    <testcase name="C-64 rv64si-p-wfi.elf"/>
+    <testcase name="C-64 rv64ua-p-amoadd_d.elf"/>
+    <testcase name="C-64 rv64ua-p-amoadd_w.elf"/>
+    <testcase name="C-64 rv64ua-p-amoand_d.elf"/>
+    <testcase name="C-64 rv64ua-p-amoand_w.elf"/>
+    <testcase name="C-64 rv64ua-p-amomax_d.elf"/>
+    <testcase name="C-64 rv64ua-p-amomaxu_d.elf"/>
+    <testcase name="C-64 rv64ua-p-amomaxu_w.elf"/>
+    <testcase name="C-64 rv64ua-p-amomax_w.elf"/>
+    <testcase name="C-64 rv64ua-p-amomin_d.elf"/>
+    <testcase name="C-64 rv64ua-p-amominu_d.elf"/>
+    <testcase name="C-64 rv64ua-p-amominu_w.elf"/>
+    <testcase name="C-64 rv64ua-p-amomin_w.elf"/>
+    <testcase name="C-64 rv64ua-p-amoor_d.elf"/>
+    <testcase name="C-64 rv64ua-p-amoor_w.elf"/>
+    <testcase name="C-64 rv64ua-p-amoswap_d.elf"/>
+    <testcase name="C-64 rv64ua-p-amoswap_w.elf"/>
+    <testcase name="C-64 rv64ua-p-amoxor_d.elf"/>
+    <testcase name="C-64 rv64ua-p-amoxor_w.elf"/>
+    <testcase name="C-64 rv64ua-p-lrsc.elf"/>
+    <testcase name="C-64 rv64ua-v-amoadd_d.elf"/>
+    <testcase name="C-64 rv64ua-v-amoadd_w.elf"/>
+    <testcase name="C-64 rv64ua-v-amoand_d.elf"/>
+    <testcase name="C-64 rv64ua-v-amoand_w.elf"/>
+    <testcase name="C-64 rv64ua-v-amomax_d.elf"/>
+    <testcase name="C-64 rv64ua-v-amomaxu_d.elf"/>
+    <testcase name="C-64 rv64ua-v-amomaxu_w.elf"/>
+    <testcase name="C-64 rv64ua-v-amomax_w.elf"/>
+    <testcase name="C-64 rv64ua-v-amomin_d.elf"/>
+    <testcase name="C-64 rv64ua-v-amominu_d.elf"/>
+    <testcase name="C-64 rv64ua-v-amominu_w.elf"/>
+    <testcase name="C-64 rv64ua-v-amomin_w.elf"/>
+    <testcase name="C-64 rv64ua-v-amoor_d.elf"/>
+    <testcase name="C-64 rv64ua-v-amoor_w.elf"/>
+    <testcase name="C-64 rv64ua-v-amoswap_d.elf"/>
+    <testcase name="C-64 rv64ua-v-amoswap_w.elf"/>
+    <testcase name="C-64 rv64ua-v-amoxor_d.elf"/>
+    <testcase name="C-64 rv64ua-v-amoxor_w.elf"/>
+    <testcase name="C-64 rv64ua-v-lrsc.elf"/>
+    <testcase name="C-64 rv64uc-p-rvc.elf"/>
+    <testcase name="C-64 rv64uc-v-rvc.elf"/>
+    <testcase name="C-64 rv64ud-p-fadd.elf"/>
+    <testcase name="C-64 rv64ud-p-fclass.elf"/>
+    <testcase name="C-64 rv64ud-p-fcmp.elf"/>
+    <testcase name="C-64 rv64ud-p-fcvt.elf"/>
+    <testcase name="C-64 rv64ud-p-fcvt_w.elf"/>
+    <testcase name="C-64 rv64ud-p-fdiv.elf"/>
+    <testcase name="C-64 rv64ud-p-fmadd.elf"/>
+    <testcase name="C-64 rv64ud-p-fmin.elf"/>
+    <testcase name="C-64 rv64ud-p-ldst.elf"/>
+    <testcase name="C-64 rv64ud-p-move.elf"/>
+    <testcase name="C-64 rv64ud-p-recoding.elf"/>
+    <testcase name="C-64 rv64ud-p-structural.elf"/>
+    <testcase name="C-64 rv64ud-v-fadd.elf"/>
+    <testcase name="C-64 rv64ud-v-fclass.elf"/>
+    <testcase name="C-64 rv64ud-v-fcmp.elf"/>
+    <testcase name="C-64 rv64ud-v-fcvt.elf"/>
+    <testcase name="C-64 rv64ud-v-fcvt_w.elf"/>
+    <testcase name="C-64 rv64ud-v-fdiv.elf"/>
+    <testcase name="C-64 rv64ud-v-fmadd.elf"/>
+    <testcase name="C-64 rv64ud-v-fmin.elf"/>
+    <testcase name="C-64 rv64ud-v-ldst.elf"/>
+    <testcase name="C-64 rv64ud-v-move.elf"/>
+    <testcase name="C-64 rv64ud-v-recoding.elf"/>
+    <testcase name="C-64 rv64ud-v-structural.elf"/>
+    <testcase name="C-64 rv64uf-p-fadd.elf"/>
+    <testcase name="C-64 rv64uf-p-fclass.elf"/>
+    <testcase name="C-64 rv64uf-p-fcmp.elf"/>
+    <testcase name="C-64 rv64uf-p-fcvt.elf"/>
+    <testcase name="C-64 rv64uf-p-fcvt_w.elf"/>
+    <testcase name="C-64 rv64uf-p-fdiv.elf"/>
+    <testcase name="C-64 rv64uf-p-fmadd.elf"/>
+    <testcase name="C-64 rv64uf-p-fmin.elf"/>
+    <testcase name="C-64 rv64uf-p-ldst.elf"/>
+    <testcase name="C-64 rv64uf-p-move.elf"/>
+    <testcase name="C-64 rv64uf-p-recoding.elf"/>
+    <testcase name="C-64 rv64uf-v-fadd.elf"/>
+    <testcase name="C-64 rv64uf-v-fclass.elf"/>
+    <testcase name="C-64 rv64uf-v-fcmp.elf"/>
+    <testcase name="C-64 rv64uf-v-fcvt.elf"/>
+    <testcase name="C-64 rv64uf-v-fcvt_w.elf"/>
+    <testcase name="C-64 rv64uf-v-fdiv.elf"/>
+    <testcase name="C-64 rv64uf-v-fmadd.elf"/>
+    <testcase name="C-64 rv64uf-v-fmin.elf"/>
+    <testcase name="C-64 rv64uf-v-ldst.elf"/>
+    <testcase name="C-64 rv64uf-v-move.elf"/>
+    <testcase name="C-64 rv64uf-v-recoding.elf"/>
+    <testcase name="C-64 rv64ui-p-add.elf"/>
+    <testcase name="C-64 rv64ui-p-addi.elf"/>
+    <testcase name="C-64 rv64ui-p-addiw.elf"/>
+    <testcase name="C-64 rv64ui-p-addw.elf"/>
+    <testcase name="C-64 rv64ui-p-and.elf"/>
+    <testcase name="C-64 rv64ui-p-andi.elf"/>
+    <testcase name="C-64 rv64ui-p-auipc.elf"/>
+    <testcase name="C-64 rv64ui-p-beq.elf"/>
+    <testcase name="C-64 rv64ui-p-bge.elf"/>
+    <testcase name="C-64 rv64ui-p-bgeu.elf"/>
+    <testcase name="C-64 rv64ui-p-blt.elf"/>
+    <testcase name="C-64 rv64ui-p-bltu.elf"/>
+    <testcase name="C-64 rv64ui-p-bne.elf"/>
+    <testcase name="C-64 rv64ui-p-fence_i.elf"/>
+    <testcase name="C-64 rv64ui-p-jal.elf"/>
+    <testcase name="C-64 rv64ui-p-jalr.elf"/>
+    <testcase name="C-64 rv64ui-p-lb.elf"/>
+    <testcase name="C-64 rv64ui-p-lbu.elf"/>
+    <testcase name="C-64 rv64ui-p-ld.elf"/>
+    <testcase name="C-64 rv64ui-p-lh.elf"/>
+    <testcase name="C-64 rv64ui-p-lhu.elf"/>
+    <testcase name="C-64 rv64ui-p-lui.elf"/>
+    <testcase name="C-64 rv64ui-p-lw.elf"/>
+    <testcase name="C-64 rv64ui-p-lwu.elf"/>
+    <testcase name="C-64 rv64ui-p-or.elf"/>
+    <testcase name="C-64 rv64ui-p-ori.elf"/>
+    <testcase name="C-64 rv64ui-p-sb.elf"/>
+    <testcase name="C-64 rv64ui-p-sd.elf"/>
+    <testcase name="C-64 rv64ui-p-sh.elf"/>
+    <testcase name="C-64 rv64ui-p-simple.elf"/>
+    <testcase name="C-64 rv64ui-p-sll.elf"/>
+    <testcase name="C-64 rv64ui-p-slli.elf"/>
+    <testcase name="C-64 rv64ui-p-slliw.elf"/>
+    <testcase name="C-64 rv64ui-p-sllw.elf"/>
+    <testcase name="C-64 rv64ui-p-slt.elf"/>
+    <testcase name="C-64 rv64ui-p-slti.elf"/>
+    <testcase name="C-64 rv64ui-p-sltiu.elf"/>
+    <testcase name="C-64 rv64ui-p-sltu.elf"/>
+    <testcase name="C-64 rv64ui-p-sra.elf"/>
+    <testcase name="C-64 rv64ui-p-srai.elf"/>
+    <testcase name="C-64 rv64ui-p-sraiw.elf"/>
+    <testcase name="C-64 rv64ui-p-sraw.elf"/>
+    <testcase name="C-64 rv64ui-p-srl.elf"/>
+    <testcase name="C-64 rv64ui-p-srli.elf"/>
+    <testcase name="C-64 rv64ui-p-srliw.elf"/>
+    <testcase name="C-64 rv64ui-p-srlw.elf"/>
+    <testcase name="C-64 rv64ui-p-sub.elf"/>
+    <testcase name="C-64 rv64ui-p-subw.elf"/>
+    <testcase name="C-64 rv64ui-p-sw.elf"/>
+    <testcase name="C-64 rv64ui-p-xor.elf"/>
+    <testcase name="C-64 rv64ui-p-xori.elf"/>
+    <testcase name="C-64 rv64ui-v-add.elf"/>
+    <testcase name="C-64 rv64ui-v-addi.elf"/>
+    <testcase name="C-64 rv64ui-v-addiw.elf"/>
+    <testcase name="C-64 rv64ui-v-addw.elf"/>
+    <testcase name="C-64 rv64ui-v-and.elf"/>
+    <testcase name="C-64 rv64ui-v-andi.elf"/>
+    <testcase name="C-64 rv64ui-v-auipc.elf"/>
+    <testcase name="C-64 rv64ui-v-beq.elf"/>
+    <testcase name="C-64 rv64ui-v-bge.elf"/>
+    <testcase name="C-64 rv64ui-v-bgeu.elf"/>
+    <testcase name="C-64 rv64ui-v-blt.elf"/>
+    <testcase name="C-64 rv64ui-v-bltu.elf"/>
+    <testcase name="C-64 rv64ui-v-bne.elf"/>
+    <testcase name="C-64 rv64ui-v-fence_i.elf"/>
+    <testcase name="C-64 rv64ui-v-jal.elf"/>
+    <testcase name="C-64 rv64ui-v-jalr.elf"/>
+    <testcase name="C-64 rv64ui-v-lb.elf"/>
+    <testcase name="C-64 rv64ui-v-lbu.elf"/>
+    <testcase name="C-64 rv64ui-v-ld.elf"/>
+    <testcase name="C-64 rv64ui-v-lh.elf"/>
+    <testcase name="C-64 rv64ui-v-lhu.elf"/>
+    <testcase name="C-64 rv64ui-v-lui.elf"/>
+    <testcase name="C-64 rv64ui-v-lw.elf"/>
+    <testcase name="C-64 rv64ui-v-lwu.elf"/>
+    <testcase name="C-64 rv64ui-v-or.elf"/>
+    <testcase name="C-64 rv64ui-v-ori.elf"/>
+    <testcase name="C-64 rv64ui-v-sb.elf"/>
+    <testcase name="C-64 rv64ui-v-sd.elf"/>
+    <testcase name="C-64 rv64ui-v-sh.elf"/>
+    <testcase name="C-64 rv64ui-v-simple.elf"/>
+    <testcase name="C-64 rv64ui-v-sll.elf"/>
+    <testcase name="C-64 rv64ui-v-slli.elf"/>
+    <testcase name="C-64 rv64ui-v-slliw.elf"/>
+    <testcase name="C-64 rv64ui-v-sllw.elf"/>
+    <testcase name="C-64 rv64ui-v-slt.elf"/>
+    <testcase name="C-64 rv64ui-v-slti.elf"/>
+    <testcase name="C-64 rv64ui-v-sltiu.elf"/>
+    <testcase name="C-64 rv64ui-v-sltu.elf"/>
+    <testcase name="C-64 rv64ui-v-sra.elf"/>
+    <testcase name="C-64 rv64ui-v-srai.elf"/>
+    <testcase name="C-64 rv64ui-v-sraiw.elf"/>
+    <testcase name="C-64 rv64ui-v-sraw.elf"/>
+    <testcase name="C-64 rv64ui-v-srl.elf"/>
+    <testcase name="C-64 rv64ui-v-srli.elf"/>
+    <testcase name="C-64 rv64ui-v-srliw.elf"/>
+    <testcase name="C-64 rv64ui-v-srlw.elf"/>
+    <testcase name="C-64 rv64ui-v-sub.elf"/>
+    <testcase name="C-64 rv64ui-v-subw.elf"/>
+    <testcase name="C-64 rv64ui-v-sw.elf"/>
+    <testcase name="C-64 rv64ui-v-xor.elf"/>
+    <testcase name="C-64 rv64ui-v-xori.elf"/>
+    <testcase name="C-64 rv64um-p-div.elf"/>
+    <testcase name="C-64 rv64um-p-divu.elf"/>
+    <testcase name="C-64 rv64um-p-divuw.elf"/>
+    <testcase name="C-64 rv64um-p-divw.elf"/>
+    <testcase name="C-64 rv64um-p-mul.elf"/>
+    <testcase name="C-64 rv64um-p-mulh.elf"/>
+    <testcase name="C-64 rv64um-p-mulhsu.elf"/>
+    <testcase name="C-64 rv64um-p-mulhu.elf"/>
+    <testcase name="C-64 rv64um-p-mulw.elf"/>
+    <testcase name="C-64 rv64um-p-rem.elf"/>
+    <testcase name="C-64 rv64um-p-remu.elf"/>
+    <testcase name="C-64 rv64um-p-remuw.elf"/>
+    <testcase name="C-64 rv64um-p-remw.elf"/>
+    <testcase name="C-64 rv64um-v-div.elf"/>
+    <testcase name="C-64 rv64um-v-divu.elf"/>
+    <testcase name="C-64 rv64um-v-divuw.elf"/>
+    <testcase name="C-64 rv64um-v-divw.elf"/>
+    <testcase name="C-64 rv64um-v-mul.elf"/>
+    <testcase name="C-64 rv64um-v-mulh.elf"/>
+    <testcase name="C-64 rv64um-v-mulhsu.elf"/>
+    <testcase name="C-64 rv64um-v-mulhu.elf"/>
+    <testcase name="C-64 rv64um-v-mulw.elf"/>
+    <testcase name="C-64 rv64um-v-rem.elf"/>
+    <testcase name="C-64 rv64um-v-remu.elf"/>
+    <testcase name="C-64 rv64um-v-remuw.elf"/>
+    <testcase name="C-64 rv64um-v-remw.elf"/>
+  </testsuite>
+</testsuites>

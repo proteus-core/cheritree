@@ -1,0 +1,3 @@
+[submodule "sail-cheri-riscv/sha_support/sha-2"]
+	path = sail-cheri-riscv/sha_support/sha-2
+	url = git@github.com:amosnier/sha-2.git

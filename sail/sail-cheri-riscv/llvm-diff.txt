@@ -1,0 +1,24 @@
+diff --git a/llvm/lib/Target/RISCV/RISCVInstrInfoXCheri.td b/llvm/lib/Target/RISCV/RISCVInstrInfoXCheri.td
+index 620c9e0a9..d796577d8 100644
+--- a/llvm/lib/Target/RISCV/RISCVInstrInfoXCheri.td
++++ b/llvm/lib/Target/RISCV/RISCVInstrInfoXCheri.td
+@@ -228,6 +228,19 @@ multiclass CAMO_C_rr_aq_rl<string clenstr, bits<5> funct5, bits<3> funct3,
+                                     rdClass>;
+ }
+ 
++
++//===----------------------------------------------------------------------===//
++// Attestation Instructions
++//===----------------------------------------------------------------------===//
++
++let Predicates = [HasCheri] in {
++def IsUnique   : Cheri_r<0x15, "isunique", GPR, GPCR>;
++def EDeinit   : Cheri_r<0x14, "edeinit", GPR, GPCR>;
++def EInitCode : Cheri_r<0x13, "einitcode", GPCR, GPCR>;
++def EStoreId  : Cheri_rr<0x2, "estoreid", GPR, GPCR, GPR>;
++def EInitData : Cheri_rr<0x6, "einitdata", GPCR, GPCR, GPCR>;
++}
++
+ //===----------------------------------------------------------------------===//
+ // Capability-Inspection Instructions
+ //===----------------------------------------------------------------------===//
