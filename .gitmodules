@@ -1,0 +1,4 @@
+[submodule "morello/libs/libtomcrypt"]
+	path = morello/libs/libtomcrypt
+	url = https://github.com/libtom/libtomcrypt.git
+	branch = master
