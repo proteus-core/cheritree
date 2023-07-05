@@ -1,0 +1,9 @@
+*.o
+*.elf
+*.bin
+*.ihex
+*.d
+*.swp
+.cache/
+compile_commands.json
+*.vcd

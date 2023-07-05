@@ -1,0 +1,7 @@
+SELF_DIR := $(dir $(lastword $(MAKEFILE_LIST)))
+CHERI_DIR := $(SELF_DIR)/../../cheri/tests
+include $(CHERI_DIR)/Makefile.include
+
+EXTRA_TEST_DIRS += $(CHERI_DIR)
+CFLAGS += -I$(CHERI_DIR)
+CORE = riscv.plugins.capattest.CoreExtMem

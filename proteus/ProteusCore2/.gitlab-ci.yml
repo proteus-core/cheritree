@@ -1,0 +1,29 @@
+image: ubuntu:focal
+
+before_script:
+  - apt-get update -yqq
+  # Prevent interactive prompt when installing tzdata
+  - DEBIAN_FRONTEND=noninteractive apt-get install tzdata -yqq
+  # Install build dependencies
+  - apt-get install build-essential verilator gcc-riscv64-unknown-elf openjdk-11-jdk -yqq
+  # Install dependencies needed for adding the sbt repo
+  - apt-get install apt-transport-https gnupg curl -yqq
+  # Add keyserver for SBT
+  - echo "deb https://repo.scala-sbt.org/scalasbt/debian all main" | tee /etc/apt/sources.list.d/sbt.list
+  - apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2EE0EA64E40A89B84B2DF73499E82A75642AC823
+  # Install SBT
+  - apt-get update -yqq
+  - apt-get install sbt -yqq
+  # Log the dependency versions
+  - verilator --version
+  - sbt sbtVersion
+  # Update all submodules (e.g., riscv-tests)
+  - git submodule update --init
+
+test:
+  script:
+    # Execute base RV32IM tests
+    - make -C tests
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "capattest"'
+      when: never

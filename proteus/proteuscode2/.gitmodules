@@ -1,0 +1,3 @@
+[submodule "attestationexperiments"]
+	path = attestationexperiments
+	url = git@gitlab.com:ProteusCore/attestationexperiments.git
